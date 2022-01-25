@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+/*tablate-device*/
+@media screen and (max-width: 992px) {
+  .header img {
+    height: 200px;
+    width: 250px;
+  } 
+  section .header-text{
+    width: 50%;
+  }
+  section .header-text h1{
+    font-size: 38px;
+  }
+  section .header-text p{
+    font-size: 14px;
+  }
+  section .products-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+    }
+    article .image img {
+      height: 256px;
+      width: 100%;
+    }
+  }
+/*Mobile device*/
+@media screen and (max-width: 600px){
+   main .header-info{
+    display: block;
+    text-align: center;
+    width:100%;
+  }
+  main .header img{
+    display:block;
+    text-align: center;
+  }
+  main .header h1{
+    font-size:25px;
+  }
+  main .header-text p{
+    font-size: 16px;
+    text-align: center;
+  }
+  main .header-text{
+    display: block;
+    text-align: center;
+    width:100%;
+  }
+   section .header-button{
+    display: inline;
+    padding: 10px;
+  }
+   section .products-items{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 52px;
+  }
+  
+
+}
